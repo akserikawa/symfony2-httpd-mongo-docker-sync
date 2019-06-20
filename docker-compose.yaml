@@ -1,0 +1,27 @@
+version: '3'
+services:
+    httpd:
+        container_name: apache
+        build: build/httpd
+        ports:
+            - "8000:80"
+        volumes:
+            - "./web:/var/www/html:cached"
+        depends_on:
+            - "php"
+            - "mongodb"
+    php:
+        container_name: php5
+        build: build/php
+        restart: always
+        volumes:
+            - "./build/php/php.ini:/usr/local/etc/php/conf.d/php.ini"
+            - "./web:/var/www/html:cached"
+        working_dir: /var/www/html/symfony
+    mongodb:
+        container_name: mongo
+        image: mongo:3.4
+        volumes:
+            - ./data/db/mongo:/data/db
+        ports:
+            - "27020:27017"

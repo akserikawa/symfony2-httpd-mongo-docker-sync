@@ -1,0 +1,43 @@
+          ok  Starting native_osx for sync app-sync
+          ok  app-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: app-sync
+[2019-06-20 12:05:26 +0200] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:05:26.23 on 20 Jun 2019
+[2019-06-20 12:05:26 +0200] Sync Log:  [BGN] Copying symfony/.git/FETCH_HEAD from /host_sync to /app_sync
+[2019-06-20 12:05:26 +0200] Sync Log:  [END] Copying symfony/.git/FETCH_HEAD
+[2019-06-20 12:05:26 +0200] Sync Log:  [BGN] Copying symfony/.git/HEAD from /host_sync to /app_sync
+[2019-06-20 12:05:26 +0200] Sync Log:  [END] Copying symfony/.git/HEAD
+[2019-06-20 12:05:26 +0200] Sync Log:  [BGN] Copying symfony/.git/config from /host_sync to /app_sync
+[2019-06-20 12:05:26 +0200] Sync Log:  [END] Copying symfony/.git/config
+[2019-06-20 12:05:26 +0200] Sync Log:  [BGN] Copying symfony/.git/description from /host_sync to /app_sync
+[2019-06-20 12:05:26 +0200] Sync Log:  [END] Copying symfony/.git/description
+[2019-06-20 12:05:26 +0200] Sync Log:  [BGN] Copying symfony/.git/hooks from /host_sync to /app_sync
+[2019-06-20 12:05:26 +0200] Sync Log:  [END] Copying symfony/.git/hooks
+[2019-06-20 12:05:26 +0200] Sync Log:  [BGN] Copying symfony/.git/index from /host_sync to /app_sync
+[2019-06-20 12:05:26 +0200] Sync Log:  [END] Copying symfony/.git/index
+[2019-06-20 12:05:26 +0200] Sync Log:  [BGN] Copying symfony/.git/info from /host_sync to /app_sync
+[2019-06-20 12:05:26 +0200] Sync Log:  [END] Copying symfony/.git/info
+[2019-06-20 12:05:26 +0200] Sync Log:  [BGN] Copying symfony/.git/logs from /host_sync to /app_sync
+[2019-06-20 12:05:26 +0200] Sync Log:  [END] Copying symfony/.git/logs
+[2019-06-20 12:05:26 +0200] Sync Log:  [BGN] Copying symfony/.git/objects from /host_sync to /app_sync
+[2019-06-20 12:05:27 +0200] Sync Log:  [END] Copying symfony/.git/objects
+[2019-06-20 12:05:27 +0200] Sync Log:  [BGN] Copying symfony/.git/packed-refs from /host_sync to /app_sync
+[2019-06-20 12:05:27 +0200] Sync Log:  [END] Copying symfony/.git/packed-refs
+[2019-06-20 12:05:27 +0200] Sync Log:  [BGN] Copying symfony/.git/refs from /host_sync to /app_sync
+[2019-06-20 12:05:27 +0200] Sync Log:  [END] Copying symfony/.git/refs
+[2019-06-20 12:05:27 +0200] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:05:27.01 on 20 Jun 2019
+[2019-06-20 12:05:27 +0200] Sync Log:  Synchronization complete at 12:05:27  (11 items transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync app-sync
+          ok  app-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: app-sync
+          ok  Starting native_osx for sync app-sync
+          ok  app-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: app-sync
