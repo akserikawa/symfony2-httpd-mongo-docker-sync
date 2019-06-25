@@ -16,3 +16,11 @@ ifeq ($(OS),Darwin)
 else  
 	docker-compose stop
 endif
+
+logs:
+	docker-compose logs -f
+	
+clean:
+	@echo "=== Cleaning Up ==="
+	docker system prune -f
+	docker volume prune -f

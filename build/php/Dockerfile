@@ -25,6 +25,7 @@ RUN apt-get update && apt-get upgrade -y \
     libreadline-dev \
     libxslt1-dev \
     memcached \
+    git \
     wget \
     unzip \
     zlib1g-dev \
@@ -76,6 +77,9 @@ RUN apt-get update && apt-get upgrade -y \
 #     && php -r "if (hash('SHA384', file_get_contents('/tmp/composer-setup.php')) !== trim(file_get_contents('/tmp/composer-setup.sig'))) { unlink('/tmp/composer-setup.php'); echo 'Invalid installer' . PHP_EOL; exit(1); }" \
 #     && php /tmp/composer-setup.php --no-ansi --install-dir=/usr/local/bin --filename=composer --snapshot \
 #     && rm -f /tmp/composer-setup.*
+
+# Install composer from another image (multi-stage build)
+COPY --from=composer /usr/bin/composer /usr/bin/composer
 
 # mssql stuff
 RUN apt-get update ;\
