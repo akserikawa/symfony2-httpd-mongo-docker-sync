@@ -75,8 +75,8 @@ As mentioned above, our code runs in the **`web/`** directory.
 | ...          | ...   | ...     | ...     | ...    | ...   | ...   |
 
 * Since the php5 container comes with git and composer out of the box, copy the container ID and clone the repositories:
-    - Run `docker exec -it <php5_container_id> git clone <manhattan-api-repo> symfony/`
-    - Run `docker exec -it <php5_container_id> git clone <manhattan-manager-repo> manager/`
+    - Run `docker exec -it <php5_container_id> git clone <manhattan-api-repo-url> symfony/`
+    - Run `docker exec -it <php5_container_id> git clone <manhattan-manager-repo-url> manager/`
 
 * Once they get cloned, navigate to each directory and run:
     - `cd symfony`
@@ -145,7 +145,7 @@ If anything starts to fail or doesn't work as expected, it probably has to do wi
 
 If this commands don't fix the situation,run `make stop_dev` and `make start_dev` and check the containers are up and running with `docker ps`.
 
-As a last resort, run `make clear` and start the Docker workflow explained above. Don't worry, the code won't be affected or deleted.
+As a last resort, try running `make clear` and start the Docker workflow explained above. Don't worry, the code won't be affected or deleted.
 
 If you've got this far, congrats! Hopefully this guide has given you some knowledge. Btw, contributions are welcome! Feel free to add improvements and submit them via pull request.
 
