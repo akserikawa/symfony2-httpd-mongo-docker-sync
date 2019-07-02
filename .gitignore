@@ -1,3 +1,4 @@
+.docker-sync/
 /data/db/mongo/
 /web/symfony/
 /web/manager/
