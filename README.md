@@ -2,7 +2,7 @@
 ### With Apache, PHP 5, MongoDB and Composer.  
 
 
-(02/07/2019) Work in progress... expect more updates and improvements!
+**(02/07/2019) Work in progress... expect more updates and improvements!**
 
 
 ## Docker setup
